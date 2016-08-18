@@ -1,0 +1,144 @@
+/* Google Fonts */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+/* sets background image and global font */
+body {
+  background-image: url('../img/estudantes.jpg');
+  background-size: cover;
+  font-family: 'Open Sans', 'sans-serif';
+}
+
+/* div surrounding login form */
+#login {
+  background-color: #eee;
+  height: 313px;
+  width: 600px;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-top: 120px;
+  padding: 0;
+  text-align: center;
+  -webkit-box-shadow: 3px 4px 10px 0px rgba(48,54,46,.8);
+  -moz-box-shadow: 3px 4px 10px 0px rgba(48,54,46,.8);
+  box-shadow: 3px 4px 10px 0px rgba(48,54,46,.8);
+}
+
+/* form header */
+h1 {
+  font-size: 32px;
+  padding: 10px;
+  margin: 0;
+  color: #fff;
+  border-radius: 10px 10px 0px 0px;
+  background-color: #55acee;
+  margin-bottom: 15px;
+}
+
+/* text fields */
+input:not([type="submit"]) {
+  width: 550px;
+  height: 50px;
+  color: #696969;
+  border-radius: 6px;
+  font-weight: bolder;
+  border: 1px solid #acacac;
+  margin-bottom: 15px;
+  text-align: center;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  transition: all .5s;
+  font-family: 'Open Sans', 'sans-serif';
+}
+
+input:not([type="submit"]):focus {
+  color: #55acee;
+  border: 1px solid #55acee;
+  outline: none;
+}
+
+input[type="reset"] {
+  background-color: #FF4040;
+  width: 100px;
+  height: 25px;
+  transition: none;
+  color: #fff;
+  border: none;
+  font-weight: bolder;
+  cursor: pointer;
+  box-shadow: 0 5px 0 0 #CD3333;
+}
+
+input[type="reset"]:focus {
+  width: 100px;
+  color: white;
+  border: none;
+}
+
+input[type="reset"]:active {
+  box-shadow: 0 1px 0 0 #CD3333;
+  -webkit-transform: translate(0,5px);
+  -moz-transform: translate(0,5px);
+  transform: translate(0,5px);
+}
+
+/* submit button */
+input[type="submit"] {
+  font-size: 32px;
+  color: #fff;
+  background-color: #55acee;
+  box-shadow: 0 5px 0 0 #3C93D5;
+  border: none;
+  padding: 10px;
+  width: 600px;
+  display: inline-block;
+  position: relative;
+  outline: none;
+  cursor: pointer;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+input[type="submit"]:active {
+  box-shadow: 0 1px 0 0 #3C93D5;
+  -webkit-transform: translate(0,5px);
+  -moz-transform: translate(0,5px);
+  transform: translate(0,5px);
+}
+
+select {
+  background: transparent;
+  border: none;
+  font-size: 14px;
+  height: 29px;
+  padding: 5px;
+  width: 200px;
+  cursor: pointer;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  background-color: #ddd;
+  -webkit-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+  -moz-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+  box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+}
+
+a {
+  font-family: 'Open Sans', 'sans-serif';
+  text-decoration: none;
+  color: grey;
+}
+
+a:hover {
+  color: #9e9e9e;
+}
+
+.direita {
+  float: right;
+  margin-right: 50px;
+  margin-bottom: 10px;
+}
+
+.esquerda {
+  float: left;
+  margin-left: 50px;
+  margin-bottom: 10px;
+}

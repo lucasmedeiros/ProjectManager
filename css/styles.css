@@ -1,0 +1,75 @@
+/* Alguns estilos para a página */
+
+.navbar-static-top {
+  margin-bottom:20px;
+}
+
+i {
+  font-size:18px;
+}
+  
+footer {
+  margin-top:10px;
+  padding-top:10px;
+  padding-bottom:10px;
+  color: white;
+  background-color:#1a1a1a;
+}
+
+.nav>li .count {
+  position: absolute;
+  top: 10%;
+  right: 25%;
+  font-size: 10px;
+  font-weight: normal;
+  background: rgba(41,200,41,0.75);
+  color: rgb(255,255,255);
+  line-height: 1em;
+  padding: 2px 4px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+}
+
+/*Alterações no estilo para fazer o rodapé ficar fixo no fim da página mesmo com pouco conteúdo*/
+html, body {
+  height: 100%;
+}
+
+#tudo {
+  position: relative;
+  padding-bottom: 70px;
+}
+
+#footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Alterações no estilo para os campos que devem ficar marrons ou verdes na exibição de um projeto
+  (como saber se o projeto está finalizado ou não, ou saber se um participante é ou não orientador) */
+
+.brown, .green {
+  padding: 10px;
+  margin: 5px;
+  text-align: center;
+  width: 50%;
+  border-radius: 5px;
+}
+
+.brown {
+  background-color: #DEB887;
+  color: #8B4513;
+  border: 1px solid #8B4513;
+  box-shadow: 0px -3px 0px #8B4513 inset;
+}
+
+.green {
+  background-color: #98FB98;
+  color: #006400;
+  border: 1px solid #006400;
+  box-shadow: 0px -3px 0px #006400 inset;
+}
